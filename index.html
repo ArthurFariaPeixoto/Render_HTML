@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML render in real time">
+    <meta name="author" content="Arthur Faria">
+    <title>HTML Render</title>
+
+
+    <script src="js/Controller.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        function start(){
+            // INICIALIZANDO O RENDER DO HTML
+            Controller.start();
+        }
+    </script>
+</head>
+
+<frameset resizable="yes" rows="50%,*" onload="start();">
+    <frame name="editbox">
+    <frame name="dynamicframe">
+</frameset>
+
+</html>
+
+
