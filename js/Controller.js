@@ -16,8 +16,8 @@ const Controller ={
                     '<\/body>' +
                     '<\/html>',
 
-    HTML_padrao: '<h3>Bem-vindo ao meu programa<\/h3>\n' +
-                 '<p>Digite o c&oacute;digo HTML neste container, e ele aparecer&aacute; neste frame abaixo.<\/p>',
+    HTML_padrao: '<h3>Digite o c&oacute;digo HTML neste container, e ele aparecer&aacute; neste frame abaixo.<\/h3>\n' +
+                 '<p>Hello World!<\/p>',
 
     creditos: '<div style="position:absolute; margin:.3em; bottom:0em; right:0em;"><small>\n  Criado por <a href="https://github.com/ArthurFariaPeixoto" target="_blank">Arthur Faria<\/a>.\n<\/small><\/div>',
 
